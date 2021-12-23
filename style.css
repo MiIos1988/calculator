@@ -1,0 +1,51 @@
+.strana {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.kalkulator {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  background: silver;
+}
+.displej {
+  flex-grow: 2;
+  background: skyblue;
+}
+.brojevi {
+  flex-grow: 6;
+  display: flex;
+  flex-wrap: wrap;
+}
+.dugme {
+  flex-grow: 1;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  margin: 7px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#jednako {
+  flex-grow: 3;
+  width: 180px;
+}
+.displej {
+  border: 2px solid black;
+  display: block;
+  width: 280px;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 40px;
+  padding: 3px;
+  text-align: right;
+  font-weight: bold;
+}
