@@ -168,7 +168,6 @@ function izbrisi() {
 // Operacije sa brojevima:
 
 // Sabiranje
-
 plus.addEventListener("click", pokreniPlus);
 function pokreniPlus() {
   jednakoDvaput = false;
@@ -222,7 +221,6 @@ function pokreniPlus() {
 }
 
 // Oduzimanje
-
 minus.addEventListener("click", pokreniMinus);
 function pokreniMinus() {
   jednakoDvaput = false;
@@ -271,7 +269,6 @@ function pokreniMinus() {
   oduzimanje = true;
   mnozenje = false;
   deljenje = false;
-  // console.log(oduzimanje);
 }
 
 // Mnozenje
